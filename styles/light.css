@@ -12,6 +12,7 @@
 	--main-title-color: #ffc2e6;
 	--main-font: 'IBM Plex mono';
 	--main-font-size: 18px;
+	--bg-color: #ff8dcb;
 	--bg-img: url(../images/cover-image-light.png);
 	--hover-btn-color: rgba(50, 49, 45, 0.4);
 
@@ -31,6 +32,7 @@
 		--secondary-color: #ff8dcb;
 		--main-text: #353430;
 		--main-title-color: #ffc2e6;
+		--bg-color: #ff8dcb;
 		--main-font: 'IBM Plex mono';
 		--main-font-size: 18px;
 		--bg-img: url(../images/cover-image-light.png);
