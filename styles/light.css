@@ -38,4 +38,11 @@
 		--bg-img: url(../images/cover-image-light.png);
 		--hover-btn-color: rgba(50, 49, 45, 0.4);
 	}
+	.rec-dot-text {
+		display: none;
+	}
+	.rec-dot-text::after {
+		content: '';
+		display: none;
+	}
 }
