@@ -205,7 +205,8 @@
 
 .less-concentration {
 	display: flex;
-	gap: 20px;
+	gap: 19px;
+	flex-wrap: wrap;
 }
 
 .title-less-concentration {
@@ -419,6 +420,7 @@
 	.header {
 		display: flex;
 		flex-direction: column;
+		block-size: 0;
 		min-block-size: 668px;
 		margin-block-end: 30px;
 	}
@@ -455,15 +457,23 @@
 	.main__section-concentration {
 		display: flex;
 		flex-direction: column;
-		margin-block-end: 26px;
+		margin-block-end: 45px;
+		gap: 20px;
 	}
 
 	.title-concentration {
-		margin-block-end: 20px;
+		max-width: 350px;
+	}
+	.content-concentration {
+		display: flex;
+		row-gap: 20px;
+		flex-direction: column;
 	}
 
 	.article-concentration {
+		display: flex;
 		padding-inline-start: 0px;
+		gap: 10px;
 	}
 
 	.less-section-concentration {
@@ -477,7 +487,8 @@
 	.advice-section {
 		display: flex;
 		flex-direction: column;
-		margin-block-end: 29px;
+		margin-block-end: 50px;
+		gap: 20px;
 	}
 
 	.advice {
@@ -500,5 +511,6 @@
 
 	.footer {
 		min-block-size: 668px;
+		block-size: 0;
 	}
 }
