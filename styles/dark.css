@@ -10,21 +10,11 @@
 	--title-text-color: #ff0070;
 	--main-text: #f1b2ce;
 	--main-title-color: #db00ff;
-	--main-font: 'IBM Plex mono';
 	--main-font-size: 18px;
 	--bg-color: #000028;
 	--bg-img: url(../images/cover-image-dark.png);
 }
-@media (prefers-color-scheme: dark) {
-	:root {
-		--main-color: #000028;
-		--secondary-color: #ff0070;
-		--title-text-color: #ff0070;
-		--main-text: #f1b2ce;
-		--main-title-color: #db00ff;
-		--bg-color: #000028;
-		--main-font: 'IBM Plex mono';
-		--main-font-size: 18px;
-		--bg-img: url(../images/cover-image-dark.png);
-	}
+
+.theme_dark .rec-dot-text {
+	display: block;
 }
