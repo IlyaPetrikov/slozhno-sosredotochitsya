@@ -14,7 +14,8 @@
 	--bg-color: #000028;
 	--bg-img: url(../images/cover-image-dark.png);
 }
-@media (prefers-color-scheme: light) {
+
+@media (prefers-color-scheme: dark) {
 	:root {
 		--main-color: #000028;
 		--secondary-color: #ff0070;
@@ -25,6 +26,7 @@
 		--bg-color: #000028;
 		--bg-img: url(../images/cover-image-dark.png);
 	}
+}
 
 .theme_dark .rec-dot-text {
 	display: block;
