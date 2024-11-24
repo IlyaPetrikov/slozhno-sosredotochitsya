@@ -19,6 +19,10 @@
 	display: none;
 }
 
+.theme_light .header__theme-menu-button:hover {
+	border: solid 1px var(--hover-btn-color);
+}
+
 @media (prefers-color-scheme: light) {
 	:root {
 		--main-color: #353430;
@@ -34,5 +38,9 @@
 
 	.rec-dot-text {
 		display: none;
+	}
+	.theme_dark .header__theme-menu-button:hover {
+		--hover-btn-color: #ff0070;
+		border: solid 1px var(--hover-btn-color);
 	}
 }
