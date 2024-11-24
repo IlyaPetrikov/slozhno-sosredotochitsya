@@ -40,7 +40,7 @@
 		display: none;
 	}
 	.theme_dark .header__theme-menu-button:hover {
-		--hover-btn-color: #ff0070;
+		--hover-btn-color: rgba(255, 0, 112, 0.4);
 		border: solid 1px var(--hover-btn-color);
 	}
 }
